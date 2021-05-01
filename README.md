@@ -1,29 +1,16 @@
-# **Measure Visual Acuity Remote App**
+# **Measure Visual Acuity Display App**
 ## Team SecureVision 
-
-## Description
-To develop a solution that can be used to conduct eye tests in regions with a lack of space and ambience issues, especially rural areas. 
-The main objectives of this project are:
-- To come up with a visual acuity measurement app or solution which can give consistent and accurate readings.
-- To develop a cost-effective and easy to use solution which can be used in rural areas.
-- To develop a solution that can be used by a non-medical field (social) worker/volunteer.
 
 ## Requirements
 The API, Remote application and display application must be connected on the same network.
 
 ## Usage
-- The remote app takes in the patient's details such as their 'Name', 'Age', 'Email', 'Contact' and the IP address of the API server. 
-- The volunteer selects the mode in which the app needs to run based on the surrounding light ambience and space.
-- There are two modes - Periscope and Non Periscope mode.
-- If non periscope mode is selected, the distance is to be provided between the display screen and the patient.
-- Then the volunteer selects the appropriate chart that needs to be rendered on the display device based on literacy, age, etc.
-- Finally, volunteer validates if the patient's response is correct or not. After all the readings are done, the visual acuity is displayed at the end.
-- The results are stored in the MongoDB database and the same is sent to the patient via Email using SMTP Protocol.
+- Enter the IP address of the API server.
+- The display app is now connected to the API server and will be controlled by the remote application.
+- Based on the mode selected by the user on the remote application, the display device is either mounted on one end of the periscope or is mounted at a distance between 0.5 to 6 metres from the patient at the eye level.
 
 ## Screenshots
-<img src = "https://user-images.githubusercontent.com/62014238/116793481-9a203700-aae4-11eb-96da-cf58d9adb872.png" width = "250px" height = "500px">
-<img src = "https://user-images.githubusercontent.com/62014238/116793887-1e73b980-aae7-11eb-8c5e-c70510258053.jpeg" width = "250px" height = "500px">
-<img src = "https://user-images.githubusercontent.com/62014238/116793482-9ab8cd80-aae4-11eb-9ef8-46053271c5a9.png" width = "250px" height = "500px">
-<img src = "https://user-images.githubusercontent.com/62014238/116793793-9097ce80-aae6-11eb-8f24-2efd0d00c4a3.png" width = "250px" height = "500px">
-<img src = "https://user-images.githubusercontent.com/62014238/116793483-9b516400-aae4-11eb-8a90-c9fde4d11444.png" width = "250px" height = "500px">
-<img src = "https://user-images.githubusercontent.com/62014238/116793794-91c8fb80-aae6-11eb-86df-b94579975ec8.png" width = "250px" height = "500px">
+![disp1](https://user-images.githubusercontent.com/62014238/116794790-757c8d00-aaed-11eb-93b9-f37f25dbe540.jpg)
+![disp2](https://user-images.githubusercontent.com/62014238/116794791-76152380-aaed-11eb-9173-16c7559ddb41.jpg)
+![disp3](https://user-images.githubusercontent.com/62014238/116794792-76adba00-aaed-11eb-8f12-1c8242ef9817.jpg)
+
