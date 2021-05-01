@@ -1,4 +1,4 @@
-# **Measure Visual Acuity API**
+# **Measure Visual Acuity Volunteer App**
 ## Team SecureVision 
 
 ## Description
@@ -7,7 +7,7 @@ The main objectives of this project are:
 - To come up with a visual acuity measurement app or solution which can give consistent and accurate readings.
 - To develop a cost-effective and easy to use solution which can be used in rural areas.
 - To develop a solution that can be used by a non-medical field (social) worker/volunteer.
-
+-
 ## Requirements
 The API, Volunteer application and display application must be connected on the same network.
 
