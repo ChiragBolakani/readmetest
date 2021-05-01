@@ -9,23 +9,17 @@ The main objectives of this project are:
 - To develop a solution that can be used by a non-medical field (social) worker/volunteer.
 
 ## Requirements
-All the necessary python modules and libraries are mentioned in **requirements.txt** file. Make sure you have them installed(or install them if not present) before running the project.
-
-- Install all libraries mentioned in requirements.txt
- ```python
-pip install -r requirements.txt
-```
-- Mongo-URI has to be provided for database connectivity
+The API, Volunteer application and display application must be connected on the same network.
 
 ## Usage
-- The api takes in the following parameters such as 'position', 'distance', 'dpi', 'chart_type'.
-- Based on the parameters the image of the chart will be returned, that is to be displayed in the display app.
- ```python
-mva_api.py
-```
+- The display app takes in the patient's details such as their 'Name', 'Age', 'Email', 'Contact' and the IP address of the API server.
+- The distance is to be provided between the phone and the patient.
+- Finally, volunteer validates if the patient's guess is correct or not. After all the readings are done, the visual acuity is displayed at the end.
 
 ## Screenshots
-![Screenshot (237)](https://user-images.githubusercontent.com/62014238/116792635-86be9d00-aadf-11eb-964b-d432fabd1563.png)
-![Screenshot (238)](https://user-images.githubusercontent.com/62014238/116792638-8c1be780-aadf-11eb-9107-060de5c41dbc.png)
+![vol1](https://user-images.githubusercontent.com/62014238/116793481-9a203700-aae4-11eb-96da-cf58d9adb872.png)
+![vol2](https://user-images.githubusercontent.com/62014238/116793482-9ab8cd80-aae4-11eb-9ef8-46053271c5a9.png)
+![vol3](https://user-images.githubusercontent.com/62014238/116793483-9b516400-aae4-11eb-8a90-c9fde4d11444.png)
+
 
 
