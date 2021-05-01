@@ -5,6 +5,10 @@
 
 ## Description
 To develop a solution that can be used to conduct eye tests in regions with a lack of space and ambience issues, especially rural areas. 
+The main objectives of this project are:
+- To come up with a visual acuity measurement app or solution which can give consistent and accurate readings.
+- To develop a cost-effective and easy to use solution which can be used in rural areas.
+- To develop a solution that can be used by a non-medical field (social) worker/volunteer.
 
 ## Requirements
 All the necessary python modules and libraries are mentioned in **requirements.txt** file. Make sure you have them installed(or install them if not present) before running the project.
