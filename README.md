@@ -15,7 +15,6 @@ All the necessary python modules and libraries are mentioned in **requirements.t
  ```python
 pip install -r requirements.txt
 ```
-- For twilio setup, please make a free account [here](https://www.twilio.com/try-twilio) and paste the obtained the account id and auth_token in mva_api.py file.
 - Mongo-URI has to be provided for database connectivity
 
 ## Usage
