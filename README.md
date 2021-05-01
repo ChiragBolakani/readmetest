@@ -1,7 +1,5 @@
-# Measure Visual Acuity API
-## Team SecureVision
-
-**'Smart Vision'** is a human intrusion detection based system which detects unknown/uninvited person in the owner's house and notify the user via Call and SMS. 
+# **Measure Visual Acuity API**
+## Team SecureVision 
 
 ## Description
 To develop a solution that can be used to conduct eye tests in regions with a lack of space and ambience issues, especially rural areas. 
