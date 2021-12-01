@@ -4,6 +4,9 @@
 ## Requirements
 The API, Remote application and display application must be connected on the same network.
 
+sjsjjgnsg\
+dfgnfdgjd
+
 ## Usage
 - Enter the IP address of the API server.
 - The display app is now connected to the API server and will be controlled by the remote application.
